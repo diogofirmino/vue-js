@@ -15,19 +15,16 @@ export default new Router({
             path: '/',
             name: 'home',
             component: Home,
-            props: { title: 'Home' },
         },
         {
             path: '/about',
             name: 'about',
             component: About,
-            props: { title: 'About' },
         },
         {
             path: '/mylist',
             name: 'mylist',
             component: MyList,
-            props: { title: 'My List', showTotal: true },
         },
     ],
 });
