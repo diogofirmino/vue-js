@@ -3,7 +3,7 @@ import VueLazyload from 'vue-lazyload';
 import VueMeta from 'vue-meta';
 import App from './App.vue';
 import router from './router';
-import store from './store';
+import store from './store/index';
 
 Vue.use(VueMeta, {
     refreshOnceOnNavigation: true,

@@ -73,10 +73,14 @@
 </template>
 
 <script>
+const PAGE_INFO = {
+    title: 'Home',
+};
 export default {
     name: 'home',
-    metaInfo: {
-        title: 'Home',
+    metaInfo: PAGE_INFO,
+    mounted() {
+        this.$store.dispatch('SET_HEADER_PROPERTIES', PAGE_INFO);
     },
 };
 </script>

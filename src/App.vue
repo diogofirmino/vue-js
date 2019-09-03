@@ -1,6 +1,6 @@
 <template>
     <div class="app">
-        <app-header :title="pageTitle" :showTotalItems="showTotal"></app-header>
+        <app-header></app-header>
         <router-view/>
     </div>
 </template>

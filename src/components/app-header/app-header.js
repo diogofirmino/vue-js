@@ -8,12 +8,11 @@ export default {
         ...mapGetters({
             total: 'total',
             totalSelected: 'totalSelected',
+            title: 'title',
+            showTotalItems: 'showTotalItems',
         }),
         showTotalText() {
             return `There are ${this.total} items (${this.totalSelected} selected)`;
-        },
-        routeProps() {
-            return this.$route.matched[0].props.default;
         },
     },
 };

@@ -4,8 +4,9 @@
         "alias": {
             "@components": "./src/components/",
             "@views": "./src/views/",
-            "@styles": "./src/styles",
+            "@styles": "./src/styles/",
             "@api": "./src/api/",
+            "@store": "./src/store/"
         }
       }]
     ]

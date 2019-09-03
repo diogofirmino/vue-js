@@ -1,10 +1,10 @@
 <template>
     <div class="app--header stick-on-top">
         <navigation></navigation>
-        <div class="title" v-if="routeProps.title">
-            {{ routeProps.title }}
+        <div class="title" v-if="title">
+            {{ title }}
         </div>
-        <div class="subtitle" v-if="routeProps.showTotal">
+        <div class="subtitle" v-if="showTotalItems">
             {{ showTotalText }}
         </div>
     </div>

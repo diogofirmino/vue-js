@@ -18,16 +18,20 @@
                 <li><a href="https://vue-meta.nuxtjs.org/">vue-meta</a></li>
             </ul>
 
-        
+
         </div>
     </div>
 </template>
 
 <script>
+const PAGE_INFO = {
+    title: 'About',
+};
 export default {
     name: 'about',
-    metaInfo: {
-        title: 'About',
+    metaInfo: PAGE_INFO,
+    mounted() {
+        this.$store.dispatch('SET_HEADER_PROPERTIES', PAGE_INFO);
     },
 };
 </script>
