@@ -9,11 +9,11 @@
           {{ item.title }}
         </div>
         <div class="card--footer">
-          <button class="card--button button--secondary" @click="select">{{ selectButtonText }}</button>
-          <button class="card--button button--danger" @click="remove">Remove</button>
+          <i class="fas fa-check-circle fa-lg" @click="select"></i>
+          <i class="fas fa-times-circle fa-lg" @click="remove"></i>
         </div>
       </div>
-    </div> 
+    </div>
   </div>
   </transition>
 

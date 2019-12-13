@@ -1,10 +1,10 @@
 <template>
     <div class="app--header stick-on-top">
         <navigation></navigation>
-        <div class="title" v-if="title">
-            {{ title }}
-        </div>
-        <div class="subtitle" v-if="showTotalItems">
+<!--        <div class="title" v-if="title">-->
+<!--            {{ title }}-->
+<!--        </div>-->
+        <div class="subtitle" v-if="showTotalItems" style="margin-top: 10px">
             {{ showTotalText }}
         </div>
     </div>

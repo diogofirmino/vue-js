@@ -3,7 +3,7 @@ import api from '@api/mock/index';
 import { mapGetters } from 'vuex';
 
 const PAGE_INFO = {
-    title: 'My List',
+    title: 'Gallery',
     showTotalItems: true,
 };
 

@@ -3,7 +3,7 @@
     <router-link :class="{'navigation--link': true, selected: $route.name === 'home'}"
       to="/">Home</router-link>
     <router-link :class="{'navigation--link': true, selected: $route.name === 'mylist'}"
-      to="/mylist">My list</router-link>
+      to="/mylist">Gallery</router-link>
     <router-link :class="{'navigation--link': true, selected: $route.name === 'about'}"
       to="/about">About</router-link>
 
