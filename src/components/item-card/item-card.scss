@@ -4,6 +4,7 @@
   width: 300px;
   position: relative;
   box-sizing: border-box;
+  padding: 10px;
 
   .wide--container {
     position: relative;
@@ -71,7 +72,7 @@
       }
   
       &.button--danger {
-        background: #912e2f;
+        background: red;
         color: white;
       }
 
